@@ -1,14 +1,14 @@
 {
-  "name": "emoji-blast",
+  "name": "Emoji Blast",
   "main": "./lib/emoji-blast",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "A fun atom package to show emojis while you work. Developed to record my screen while I code in my favorite editor, Atom.",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "emoji-blast:toggle"
   },
-  "repository": "https://github.com/atom/emoji-blast",
+  "repository": "https://github.com/DivyaGupta261/emoji-blast-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
