@@ -1,0 +1,13 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "emoji-blast:toggle",
+    "ctrl-1": "emoji-blast:dance",
+    "ctrl-2": "emoji-blast:poop",
+    "ctrl-3": "emoji-blast:cry",
+    "ctrl-4": "emoji-blast:sleepy",
+    "ctrl-5": "emoji-blast:think",
+    "ctrl-6": "emoji-blast:laugh",
+    "ctrl-7": "emoji-blast:tongueOut",
+    "ctrl-8": "emoji-blast:quirky"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle emoji-blast",
+        "command": "emoji-blast:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "emoji-blast",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "emoji-blast:toggle"
+            },
+            {
+              "label": "Dance",
+              "command": "emoji-blast:dance"
+            },
+            {
+              "label": "Poop",
+              "command": "emoji-blast:poop"
+            },
+            {
+              "label": "Cry",
+              "command": "emoji-blast:cry"
+            },
+            {
+              "label": "Sleepy",
+              "command": "emoji-blast:sleepy"
+            },
+            {
+              "label": "Think",
+              "command": "emoji-blast:think"
+            },
+            {
+              "label": "Laugh",
+              "command": "emoji-blast:laugh"
+            },
+            {
+              "label": "Tongue out",
+              "command": "emoji-blast:tongueOut"
+            },
+            {
+              "label": "Nerd",
+              "command": "emoji-blast:quirky"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

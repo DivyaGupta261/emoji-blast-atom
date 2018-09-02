@@ -1,0 +1,131 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.emoji-blast {
+  display: inline-block;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  // animation: poop-dance .8s infinite alternate ease-in-out;
+}
+
+.emoji {
+  width: 100px;
+  height: 100px;
+}
+
+.dance {
+  background: url('atom://emoji-blast/assets/Dancer_With_Red_Dress_Emoji.png') no-repeat center;
+  background-size: contain;
+  animation: dance 0.5s infinite alternate ease-in-out;
+}
+
+@keyframes dance {
+  from { transform: rotate(30deg);}
+  50% { transform: rotate(0deg) scale(2, 2); }
+  to { transform: rotate(-30deg); }
+}
+
+.cry {
+  background: url('atom://emoji-blast/assets/Loudly_Crying_Face_Emoji.png') no-repeat center;
+  background-size: contain;
+  animation: crying 1s infinite ease-in-out;
+}
+
+@keyframes crying {
+  from { transform: translate(0px, 0px); }
+  50% { transform: translate(0px, 25px); }
+  to { transform: translate(0px, 50px);  }
+}
+
+.quirky {
+  background: url('atom://emoji-blast/assets/Nerd_with_Glasses_Emoji.png') no-repeat center;
+  background-size: contain;
+  animation: quirking 1s infinite alternate ease-in-out;
+}
+
+@keyframes quirking {
+  from { transform: scale(0.5, 0.5); }
+  75% { transform: scale(1, 1); }
+  to { transform: scale(0.75, 0.75); }
+}
+
+.poop {
+  background: url('atom://emoji-blast/assets/Poop_Emoji.png') no-repeat center;
+  background-size: contain;
+  animation: quirking 1s infinite alternate ease-in-out;
+}
+
+.rocket {
+  background: url('atom://emoji-blast/assets/Rocket_Emoji.png') no-repeat center;
+  background-size: contain;
+  animation: launch 1s infinite cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+@keyframes launch {
+  from { transform: translate(0px, 0px); }
+  25% { transform: translate(25px, -25px) skew(20deg, 20deg); }
+  75% { transform: translate(45px, -45px) skew(5deg, 5deg); }
+  80% { transform: translate(70px, -70px) scale(1, 0.95);}
+  85% { transform: translate(85px, -85px) scale(0.95, 0.75);}
+  to { transform: translate(200px, -200px) scale(0.5, 0.5);}
+}
+
+.laugh {
+  background: url('atom://emoji-blast/assets/Tears_of_Joy_Emoji.png') no-repeat center;
+  background-size: contain;
+  animation: laughing 1s infinite alternate ease-in-out;
+}
+
+@keyframes laughing {
+  from { transform: scale(0.75, 0.75); }
+  75% { transform: scale(1.5, 1.5); }
+  to { transform: scale(1, 1); }
+}
+
+.tongue-out {
+  background: url('atom://emoji-blast/assets/Tongue_Out_Emoji_with_Winking_Eye.png') no-repeat center;
+  background-size: contain;
+  animation: quirking 1s infinite alternate ease-in-out;
+}
+
+.think {
+  background: url('atom://emoji-blast/assets/Thinking_Face_Emoji.png') no-repeat center;
+  background-size: contain;
+  animation: laughing 1s infinite alternate ease-in-out;
+}
+
+
+.container {
+  text-align: center;
+  font-size: 8rem;
+  margin-top: calc(50vh - 8rem/2);
+}
+
+@keyframes poop-dance {
+  from, 49% { transform-origin: -50% 100%; }
+  50%, 75%, to { transform-origin: 150% 100%; }
+  25% { transform: rotate(-10deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(10deg); }
+}
+
+.sleepy {
+  background: url('atom://emoji-blast/assets/Sleeping_Emoji.png') no-repeat center;
+  background-size: contain;
+  animation: sleepy-dance 2s infinite ease-in-out;
+}
+
+@keyframes sleepy-dance {
+  from { transform: translate(0px, 50px); opacity: 0}
+  50% { transform: translate(0px, 0px); opacity: 1 }
+  to { transform: translate(0px, -50px); opacity: 0 }
+}
+
+
+// .poop:empty::before {
+//   content: "💩";
+// }
