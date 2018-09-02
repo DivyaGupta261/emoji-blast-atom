@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "emoji-blast:toggle"
   },
-  "repository": "https://github.com/atom/emoji-blast",
+  "repository": "https://github.com/DivyaGupta261/emoji-blast-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
